@@ -38,7 +38,7 @@ if (!isLoggedIn() && !$isLoginPage) {
     redirectToLogin();
 }
 
-$pagePath = BASE_PATH . "/src/pages$urlPath";
+$pagePath = BASE_PATH . "/MCAV-Accounting-System/src/pages$urlPath";
 ?>
 
 <!DOCTYPE html>

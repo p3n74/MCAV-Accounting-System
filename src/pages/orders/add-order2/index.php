@@ -386,7 +386,7 @@ $conn->close();
                     <div class="CUSTOMERS_INPUT_COLUMN">
                         <!-- Payment Processor -->
                         <label for="processor">Processor</label>
-                        <select id="processor" name="processor" disabled>
+                        <select id="processor" name="processor">
                             <option value="none">None</option>
                             <option value="gcash">GCash</option>
                             <option value="metrobank">Metrobank</option>

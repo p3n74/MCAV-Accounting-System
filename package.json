@@ -8,5 +8,19 @@
 		"prettier": "^3.3.2",
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"tailwindcss": "^3.4.4"
-	}
+	},
+	"name": "mcav",
+	"version": "1.0.0",
+	"description": "Checklist of Features:",
+	"main": "tailwind.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/p3n74/MCAV-Accounting-System.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/p3n74/MCAV-Accounting-System/issues"
+	},
+	"homepage": "https://github.com/p3n74/MCAV-Accounting-System#readme"
 }

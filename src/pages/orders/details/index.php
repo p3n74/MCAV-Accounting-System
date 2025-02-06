@@ -494,8 +494,7 @@
                     }
 
                     if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['action'] == 'refresh') {
-                        // Sanitize input
-                        $globOrderID = $conn->real_escape_string($globOrderID);
+                        // Sanitize i
 
                         //Update amount paid
                         $sql = "UPDATE payment_plans 
@@ -505,13 +504,7 @@
                                 WHERE orderid = '$globOrderID' AND IsRemoved = 0;";
                         $conn->query($sql);
 
-                        // Update total amount in payment_plans
-                        $sql = "UPDATE payment_plans 
-                                SET totalamount = (SELECT SUM(productPrice * productQuantity) 
-                                                   FROM products 
-                                                   WHERE orderid = '$globOrderID' AND isRemoved = 0) 
-                                WHERE orderid = '$globOrderID';";
-                        $conn->query($sql);
+                        
 
                         // Update balance
                         $sql = "UPDATE payment_plans 
