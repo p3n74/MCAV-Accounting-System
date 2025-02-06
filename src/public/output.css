@@ -620,6 +620,20 @@ input{
 }
 
 textarea{
+=======
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+select{
+>>>>>>> ef6e4b9200fe0f2c08afa1ada81218284d864413
   width: 100%;
   border-radius: 0.5rem;
   border-width: 1px;
